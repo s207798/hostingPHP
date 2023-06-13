@@ -8,9 +8,23 @@
     <p>Kod pocztowy: <input type="number" name="kodPocztowy" /></p>
     <p>Rok urodzenia: <input type="number" name="rokUrodzenia" /></p>
     
+    echo $_POST['imie'];
+    echo $_POST['nazwisko'];
+    echo $_POST['ulica'];
+    (int)echo $_POST['numerDomu'];
+    (int)echo $_POST['numerMieszkania'];
+    echo $_POST['miasto'];
+    (int)echo $_POST['kodPocztowy'];
+    (int)echo $_POST['rokUrodzenia'];
     
-    <textarea name='opis'>Treść <b>pogrubiona</b> i zwykła.</textarea>
+    echo "Wiek: ";
+    $x=$_POST['rokUrodzenia'];
+    echo (2023-$x);
 
-    <p><input type="submit" /></p>
+    
+    
+    //<textarea name='opis'>Treść <b>pogrubiona</b> i zwykła.</textarea>
+
+    //<p><input type="submit" /></p>
     
 </form>
