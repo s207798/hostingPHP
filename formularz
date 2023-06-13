@@ -5,8 +5,8 @@
 </head>
 <body>
 
+<form action="/action_page.php" method="post">
 
-<form action="./" method="post">
     <p>Imię: <input type="text" name="imie" /></p>
     <p>Nazwisko: <input type="text" name="nazwisko" /></p>
     <p>Ulica: <input type="text" name="ulica" /></p>
@@ -15,32 +15,9 @@
     <p>Miasto: <input type="text" name="miasto" /></p>
     <p>Kod pocztowy: <input type="number" name="kodPocztowy" /></p>
     <p>Rok urodzenia: <input type="number" name="rokUrodzenia" /></p>
-    
-    echo $_POST['imie'];
-    echo $_POST['nazwisko'];
-    echo $_POST['ulica'];
-    (int)echo $_POST['numerDomu'];
-    (int)echo $_POST['numerMieszkania'];
-    echo $_POST['miasto'];
-    (int)echo $_POST['kodPocztowy'];
-    (int)echo $_POST['rokUrodzenia'];
-    
-    echo "Wiek: ";
-    $x=$_POST['rokUrodzenia'];
-    echo (2023-$x);
-
-    
-    
-    //<textarea name='opis'>Treść <b>pogrubiona</b> i zwykła.</textarea>
-
-    //<p><input type="submit" /></p>
+    <input type="submit" value="Submit">
     
 </form>
-
-
-
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
 
 </body>
 </html>
