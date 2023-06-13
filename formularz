@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Zadanie 2</title>
+</head>
+<body>
+
+
+<p>
+
+
 <form action="./" method="post">
     <p>Imię: <input type="text" name="imie" /></p>
     <p>Nazwisko: <input type="text" name="nazwisko" /></p>
@@ -28,3 +39,11 @@
     //<p><input type="submit" /></p>
     
 </form>
+
+</p>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
