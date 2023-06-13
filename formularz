@@ -1,0 +1,16 @@
+<form action="./" method="post">
+    <p>Imię: <input type="text" name="imie" /></p>
+    <p>Nazwisko: <input type="text" name="nazwisko" /></p>
+    <p>Ulica: <input type="text" name="ulica" /></p>
+    <p>Numer domu: <input type="number" name="numerDomu" /></p>
+    <p>Numer mieszkania: <input type="number" name="numerMieszkania" /></p>
+    <p>Miasto: <input type="text" name="miasto" /></p>
+    <p>Kod pocztowy: <input type="number" name="kodPocztowy" /></p>
+    <p>Rok urodzenia: <input type="number" name="rokUrodzenia" /></p>
+    
+    
+    <textarea name='opis'>Treść <b>pogrubiona</b> i zwykła.</textarea>
+
+    <p><input type="submit" /></p>
+    
+</form>
